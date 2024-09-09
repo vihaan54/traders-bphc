@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-size: cover;
+    background-image: url("—Pngtree—illuminated bull hologram dominates forex_5813301.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Candara;
+    scroll-behavior: smooth;
+    font-family: "Kanit", sans-serif;
+
+}
+.sec1{
+    position: relative;
+    height: 100vh;
+}
+nav {
+    background: #021320;
+    box-shadow: 3px 3px 5px black;
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li{
+    height: 80px;
+
+}
+nav a{
+    height: 100%;
+    padding: 0 30px;
+    text-decoration:none ;
+    display: flex;
+    align-items: center;
+    transition: 0.2s ease;
+    color: #ffffff;
+}
+nav a:hover{
+    transition: 0.2s ease;
+    color: green;
+}
+.sec1 h1{
+
+    font-size: 120px;
+    color: #9bc5ef;
+}
+.sec1 h2{
+    color: #befd13;
+}
+.sec1 h1 h2{
+    position: absolute;
+    text-align: center;
+    align-items: center;
+}
+
+.what{
+    display: flex;
+    position: relative;
+    top:15%;
+    width: 100%;
+    height: 50vh;
+    background: rgba(2, 19, 32, 0.66);
+    overflow: hidden;
+    color: white;
+    font-size: 22px;
+}
+.what strong{
+    position: relative;
+    font-size: 55px;
+}
+.sec2{
+    background-image: url("—Pngtree—robotic analysis of bull and_11919216.jpg");
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.what2{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background: rgba(2, 19, 32, 0.66);
+    overflow: hidden;
+    color: white;
+    font-size: 22px;
+}
+.what2 strong{
+    position: relative;
+    font-size: 55px;
+}
+.what2 p{
+    position: relative;
+    padding-inline: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    top:8%;
+}
+.footer{
+    background: rgba(0, 0, 0, 0.82);
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    top: 80%;
+    color: white;
+    text-align: center;
+    padding-top:20px;
+    font-size: 30px;
+}
+.footer a{
+    text-decoration: none;
+    color: crimson;
+    padding-inline: 10px;
+    padding-top: 25px;
+}
